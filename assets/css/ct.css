@@ -1,0 +1,134 @@
+.map{
+    margin-left: 160px;
+}
+
+.bg1 {
+    background:url("../css/bg15.jpg") no-repeat center center; 
+    background-size:cover
+    }
+
+.form{
+    margin: 10px;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+  } 
+  
+  
+  input {
+    display: inline-block;
+    width: 600px;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 600px;
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+  }
+
+  .wrapper
+{
+    display:block; 
+    width:100%; 
+    text-align:left; 
+    word-wrap:break-word;
+    font-family: "Comic Sans MS";
+}
+
+
+.clear{
+  clear:both;
+}
+
+#pageintro{
+  padding:200px 0;
+}
+#pageintro *{
+  word-wrap:break-word;
+}
+#pageintro .transbox{
+  display:block; 
+  max-width:50%; 
+  padding:30px;
+}
+#pageintro .heading{
+  margin-bottom:20px; 
+  font-weight:400;
+}
+#pageintro p{
+  margin:0; 
+  padding:0; 
+  font-size:1.2rem;
+}
+#pageintro footer{
+  margin-top:30px;
+}
+#pageintro .transbox{
+  margin-left:370px;
+  color:#FFFFFF; 
+  background-color:rgba(27,32,38,.55);
+}
+
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#1e5aff;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+
+ul {
+    display: flex;
+  }
+  
+  li {
+      display: block;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      margin-left: 10px;
+      margin-bottom: 12px;
+      font-family: "Comic Sans MS";
+      text-transform: uppercase;
+      transition: .5s;
+  }
+  
+  li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      transition: .5s;
+      padding: 5px;
+      text-align: center;
+  }
+  
+  ul:hover li a {
+      filter: blur(5px);
+  }
+  
+  ul:hover li a:hover {
+      font-size: 25px;
+      filter: blur(0px);
+      background-color: #578cdb;
+  }
+
+.input{
+    width: 200px;
+    background-color: #578cdb;
+    border: 4px solid #578cdb;
+    color: #FFFFFF;
+    font-family: "Comic Sans MS";
+}
+
+.border1{
+     width:600px;
+      background: rgba(27,32,38,.55);
+      padding: 15px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left:20px;
+        display: flex;
+}
